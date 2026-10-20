@@ -155,10 +155,30 @@ textarea:focus {
 input[type="password"],
 input[type="email"],
 input[type="text"],
+input[type="number"],
 input[type="file"],
 textarea,
 #message,
 #search {
+    max-width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    padding: 7px 15px;
+    height: auto;
+    background-color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #000;
+    background-image: none;
+    border: 1px solid #ececec;
+}
+#rsvp-message{
     max-width: 100%;
     margin-bottom: 15px;
     border: none;
@@ -820,7 +840,7 @@ input[type=radio]:checked:before {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-    background: #794E2A;
+    /* background: #00000000; */
     margin: 15px 30px;
     border-radius: 50%;
 }
@@ -894,6 +914,14 @@ body.offcanvason .oliven-nav-toggle {
     }
     .header .caption h5 {
         font-size: 12px;
+    }
+
+    .bridegroom .img {
+        width: 280px !important;
+        height: 276px !important;
+    }
+    #rsvp{
+        margin-right: 10px;
     }
 }
 /* bounce */
