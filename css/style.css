@@ -907,7 +907,7 @@ body.offcanvason .oliven-nav-toggle {
 }
 @media screen and (max-width: 991px) {
     .header {
-        background-position: center center;
+        background-position: center center !important;
     }
     .header .caption h1 {
         font-size: 40px;
